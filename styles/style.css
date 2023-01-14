@@ -1,0 +1,120 @@
+/* font declaration */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans&display=swap");
+
+/*common style or utility */
+* {
+  font-family: "Work Sans", sans-serif;
+  align-items: center;
+  margin: 0;
+}
+.button-primary {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background-color: #ff900e;
+  border-radius: 8px;
+  border: none;
+  padding: 20px 25px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.description {
+  color: #727272;
+}
+section{
+    width: 80%;
+}
+/* nav and header section style  */
+
+/* nav section style */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  margin-bottom: 85px;
+}
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 140px 100px 128px;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.nav-option {
+  display: flex;
+  gap: 20px;
+}
+.nav-option a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+/* header section style  */
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.header-container {
+  text-align: center;
+  width: 60%;
+  margin-bottom: -17px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+  margin-bottom: 25px;
+}
+
+.header-img {
+  width: 80%;
+  margin-bottom: 45px;
+}
+.header-img img {
+  width: 100%;
+}
+
+/* main section style  */
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+/* quick-list section style  */
+.quick-list-feature{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 0 360px;
+}
+.quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 24px;
+}
+.quick-list-img img{
+    width: 100%;
+}
+.quick-list-container{
+    width: 537px;
+}
+#quick-list-span{
+    color: #727272;
+}
+#features-span{
+    color: #FF900E;
+}
+.quick-list-container .description{
+    margin-top: 24px;
+    margin-bottom: 32px;
+
+}
