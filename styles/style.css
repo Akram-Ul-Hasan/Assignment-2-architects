@@ -18,7 +18,7 @@
 }
 .section-title {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 35px;
   color: #131313;
 }
 .description {
@@ -86,7 +86,8 @@ header {
 main{
     display: flex;
     flex-direction: column;
-    gap: 130px;
+ 
+    gap: 130px; 
 }
 
 /* quick-list section style  */
@@ -94,7 +95,6 @@ main{
     display: flex;
     gap: 50px;
     align-items: center;
-    margin: 0 360px;
 }
 .quick-list-img{
     display: grid;
@@ -116,5 +116,34 @@ main{
 .quick-list-container .description{
     margin-top: 24px;
     margin-bottom: 32px;
+}
+/* feature you love & enjoy section  */
+.feature-you-love{
+    display: flex;
+    align-items: center;
+    gap: 54px;
+}
+.feature-you-love-container{
+ width: 50%;
+}
+.vertical-line{
+    border-left: 5px solid #FF900E;
+    padding-left: 16px;
+    margin-bottom: 24px;
+}
+.love-and-enjoy-list-container{
+    margin-top: 30px;
+}
+.love-enjoy-list{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #86828240;
+    margin-bottom: 20px;
+}
+.feature-you-love-img{
+
+}
+.feature-you-love-img img{
+width: 100%;
 
 }
