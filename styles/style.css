@@ -25,7 +25,7 @@
   color: #727272;
   margin-top: 24px;
 }
-section {
+section{
   width: 80%;
 }
 /* nav and header section style  */
@@ -87,7 +87,6 @@ header {
 main {
   display: flex;
   flex-direction: column;
-
   gap: 130px;
 }
 
@@ -184,4 +183,17 @@ main {
 }
 .sponspors-list-container img{
     width: 75%;
+}
+
+/* footer section style  */
+footer{
+    text-align: center;
+    margin: 130px 10% 215px 10%;
+    background: #FFF4E7;
+border-radius: 8px;
+padding: 39px 0;
+}
+.footer-description{
+    font-size: 20px;
+    color: #424242;
 }
