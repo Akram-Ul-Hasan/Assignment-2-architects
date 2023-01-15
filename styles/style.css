@@ -39,11 +39,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 140px 100px 128px;
+  padding: 50px 10% 100px 10%;
 }
 .nav-title {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   color: #131313;
 }
 .nav-option {
@@ -116,7 +116,6 @@ main {
   color: #ff900e;
 }
 .quick-list-container .description {
-
   margin-bottom: 32px;
 }
 /* feature you love & enjoy section  */
@@ -205,7 +204,7 @@ font-size: 35px;
 .sponspors-title-container{
     text-align: center;
     margin-bottom: 50px;
-    width: 500px;
+    width: 60%;
 }
 .sponspors-list-container{
     display: flex;
@@ -228,4 +227,60 @@ padding: 39px 0;
 .footer-description{
     font-size: 20px;
     color: #424242;
+}
+
+/* media quary */
+@media only screen and (max-width:576px) {
+  /* section{
+    width: 100%;
+  } */
+  .header-container {
+    width: 80%;
+  }
+  .nav-section {
+    flex-direction: column;
+  }
+  .quick-list-feature{
+    flex-direction: column;
+  }
+  .quick-list-img {
+    width: 100%;
+  }
+  .quick-list-container {
+    width: 100%;
+  }
+  .feature-you-love {
+    flex-direction: column;
+  }
+  .feature-you-love-container {
+    width: 100%;
+  }
+  .feature-you-love-img {
+    width: 100%;
+    text-align: center;
+  }
+  .expexience-button{
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+  .sponspors-list-container{
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .some-facts-list-container{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .some-facts-title-container {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .some-facts-list{
+    width: 60%;
+  }
+
+
 }
