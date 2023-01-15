@@ -123,10 +123,11 @@ main {
 .feature-you-love {
   display: flex;
   align-items: center;
-  gap: 54px;
+  
+  justify-content: space-between;
 }
 .feature-you-love-container {
-  width: 50%;
+ width: 40%;
 }
 .vertical-line {
   border-left: 5px solid #ff900e;
@@ -143,9 +144,27 @@ main {
   margin-bottom: 20px;
 }
 .feature-you-love-img {
+  width: 50%;
 }
 .feature-you-love-img img {
   width: 100%;
+  
+  
+}
+.expexience-button{
+  color: white;
+  background-color: #ff900e;
+  padding: 46px 42px;
+  width: 170px;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  right:50px;
+  top:-50px;
+}
+.expexience-button h3{
+  font-weight: 700;
+font-size: 35px;
 }
 
 /* some fact section style  */
@@ -183,6 +202,7 @@ main {
 }
 .sponspors-list-container img{
     width: 75%;
+    filter: grayscale(100%);
 }
 
 /* footer section style  */
