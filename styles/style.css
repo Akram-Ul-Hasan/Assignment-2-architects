@@ -109,10 +109,10 @@ main {
 .quick-list-container {
   width: 45%;
 }
-#quick-list-span {
+.quick-list-span {
   color: #727272;
 }
-#features-span {
+.features-span {
   color: #ff900e;
 }
 .quick-list-container .description {
@@ -196,6 +196,32 @@ font-size: 35px;
  .some-facts-list:hover{
   animation: rotating 1s linear 1 forwards ;
 }
+.company-ceo-container{
+  display: flex;
+  align-items: center;
+  gap:30px;
+  text-align: center;
+}
+.ceo-img img{
+  width:400px;
+  height: 400px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.we-build-future{
+  display: flex;
+  gap: 50px;
+}
+.we-build-future-container{
+  width:50%;
+}
+.we-build-future-container .button-primary{
+  margin-top: 20px;
+}
+.we-build-future-img img{
+  width: 100%;
+}
+
 /* sponspors section style  */
 .sponspors{
     display: flex;
@@ -231,9 +257,7 @@ padding: 39px 0;
 
 /* media quary */
 @media only screen and (max-width:576px) {
-  /* section{
-    width: 100%;
-  } */
+ 
   .header-container {
     width: 80%;
   }
@@ -257,14 +281,19 @@ padding: 39px 0;
   }
   .feature-you-love-img {
     width: 100%;
-    text-align: center;
   }
   .expexience-button{
     position: relative;
     top: 0;
     right: 0;
   }
-
+.company-ceo-container{
+  flex-direction: column;
+}
+.ceo-img img{
+  width:80%;
+  height: 80%;
+}
   .sponspors-list-container{
     flex-direction: column;
     gap: 20px;
